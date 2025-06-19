@@ -1,0 +1,17 @@
+# CodeIgniter 4 specific ignores
+/vendor/
+/writable/
+/.env
+/.idea/          # If you use PHPStorm or other IDEs
+/node_modules/   # If you use NPM/Yarn for frontend assets
+/public/uploads/ # If you have a folder for user uploads inside public
+
+# Common system files
+Thumbs.db
+.DS_Store
+*.log
+*.sql            # Database dumps
+
+# Editor/IDE specific files (add as needed)
+.vscode/
+nbproject/

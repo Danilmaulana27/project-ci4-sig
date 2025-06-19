@@ -1,0 +1,146 @@
+/* Gaya Checkbox */
+.checkbox-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox-label {
+    position: relative;
+    padding-left: 2em;
+}
+
+.checkbox-container input:checked + .checkbox-label i {
+    opacity: 1;
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4){
+    max-width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5){
+    max-width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150%;
+    max-width: 240px;
+}
+
+.btn-green {
+    background-color: #009970;
+    color: #ffffff; 
+}
+
+.custom-button {
+    
+    background-color: #009970; 
+    color: #fff; 
+    border: none; 
+    padding: 8px 16px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: #01674c; 
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #009970;
+    color: #fff;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i:hover {
+    background: #00805d;
+    color: #fff;
+  }
+
+  @media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+.larger {
+    font-size: 1.2em;
+}
+
+.spacing {
+    margin-top: 10px;
+}
+
+.content {
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.header {
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.company-details {
+    text-align: center;
+    left: 10px;
+}
+
+.nama-pemda {
+    font-size: 2em;
+    margin: 0;
+}
+
+.alamat-pemda {
+    margin: 0;
+}
+
+.garis-panjang {
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 5px 0;
+}
+
